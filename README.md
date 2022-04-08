@@ -6,6 +6,8 @@ HashiCorp Vault metrics & logs into Splunk.
 
 These examples should be used with the Vault App for Splunk.
 
+See the [HashiCorp Learn tutorial](https://learn.hashicorp.com/tutorials/vault/monitor-telemetry-audit-splunk#practical-example) for more info and other options.
+
 If you use these files, here are the items you'll need to configure specific to your environment:
 
 (Note: this assumes you have Vault, the Splunk Universal Forwarder, and telegraf on the same host)
@@ -34,7 +36,5 @@ If you use these files, here are the items you'll need to configure specific to 
 * the file paths to monitor
 * hostname of the Vault server
 1. You may need to restart Splunk after making these changes.
-
-See the [HashiCorp Learn tutorial](https://learn.hashicorp.com/tutorials/vault/monitor-telemetry-audit-splunk#practical-example) for more info and other options.
 
 Disclaimer: These example configuration files are provided AS-IS, with no warranty or support expressed or implied.
