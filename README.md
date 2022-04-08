@@ -1,4 +1,4 @@
-Splunk Getting Data In (GDI) Example: HashiCorp Vault
+# Splunk Getting Data In (GDI) Example: HashiCorp Vault
 ------------
 
 This directory contains example configuration files for ingesting
@@ -7,6 +7,8 @@ HashiCorp Vault metrics & logs into Splunk.
 These examples should be used with the Vault App for Splunk.
 
 See the [HashiCorp Learn tutorial](https://learn.hashicorp.com/tutorials/vault/monitor-telemetry-audit-splunk#practical-example) for more info and other options.
+
+## Usage
 
 If you use these files, here are the items you'll need to configure specific to your environment:
 
@@ -33,8 +35,9 @@ If you use these files, here are the items you'll need to configure specific to 
 
     ex. $SPLUNK_HOME/etc/apps/vault-app-for-splunk/local/
 1. Modify inputs.conf and set:
-* the file paths to monitor
+* the file paths to monitor (set in previous steps)
 * hostname of the Vault server
-1. You may need to restart Splunk after making these changes.
+
+NOTE: You may need to restart Splunk after making these changes.
 
 Disclaimer: These example configuration files are provided AS-IS, with no warranty or support expressed or implied.
